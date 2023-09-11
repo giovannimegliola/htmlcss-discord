@@ -76,3 +76,7 @@ footer{
 .footitle{
     color: var(--fourth-color);
 }
+
+.even{
+    background-color: var(--third-color);
+}
