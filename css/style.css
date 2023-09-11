@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --first-color: #255EE9;
+    --second-color: #FFFFFF;
+    --third-color: #F5F5F5;
+    --fourth-color: #7289DA;
+    --fifth-color: #23272A;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    color:white;
+    padding: 6px 12px ;
+    display: block;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Noto Sans' ;
+}
+
+/*header*/
+header{
+    background-color: #255EE9 ;
+}
+
+#hero{
+    background-image: url(../img/jumbo.png);
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.list-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
