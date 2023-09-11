@@ -72,3 +72,7 @@ footer{
     background-color: #23272A;
     color: #FFFFFF;
 }
+
+.footitle{
+    color: var(--fourth-color);
+}
