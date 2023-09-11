@@ -57,3 +57,18 @@ header{
     align-items: center;
     align-content: center;
 }
+
+.cont-center{
+    justify-content: center; 
+}
+
+.h-content{
+    max-width: 800px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer{
+    background-color: #23272A;
+    color: #FFFFFF;
+}
