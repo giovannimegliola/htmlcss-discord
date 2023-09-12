@@ -43,11 +43,16 @@ h1{
     padding: 20px 0;
 }
 
+
+
 p{
     line-height: 1.8em;
     font-size: 1.2em;
     padding: 15px 0;
+
 }
+
+
 
 /*header*/
 header{
@@ -69,7 +74,7 @@ header{
 
 .disp-flex{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -110,4 +115,21 @@ footer{
 .button-dark{
     background-color: var(--fifth-color);
     color: var(--second-color);
+}
+
+.small{
+    width: 45%;
+}
+
+.big{
+    width: 55%;
+
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.center{
+    text-align: center;
 }

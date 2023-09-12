@@ -41,33 +41,38 @@
         </div>
     </header>
     <main>
-        <section>
-            <div class="container">
-                <img src="img/item1.svg" alt="img1">
-                <div>
-                    <h2>Un luogo a invito con tutto
-                        lo spazio necessario per parlare
-                    </h2>
-                    <p>i server discord sono organizzati in canali tematici
-                        in cui puoi collaborare, condividere o semplicemente
-                        parlare della tua giornata senza intasare una chat di gruppo
-                    </p>
-                </div>
+        <section class="container disp-flex">
+            <div class="small">
+                <img src="img/item1.svg" alt="img1" class="img-fluid">
             </div>
-            <div class="container even">
-                <img src="img/item2.svg" alt="img2">
-                <div>
+            <div class="big">
+                <h2>Un luogo a invito con tutto
+                    lo spazio necessario per parlare
+                </h2>
+                <p>i server discord sono organizzati in canali tematici
+                    in cui puoi collaborare, condividere o semplicemente
+                    parlare della tua giornata senza intasare una chat di gruppo
+                </p>  
+            </div>                                                              
+        </section>
+        <section class="container disp-flex"> 
+            <div class="small">
+                <img src="img/item2.svg" alt="img2" class="img-fluid">
+            </div>
+            <div class="big">
                     <h2>Dove trovarsi è facile</h2>
                     <p>Mettiti comodo in un canale vocale 
                         quando hai tempo. Gli amici nel tuo server
                         possono vedere che sei lì e unirsi
                         istantaneamente senza dover chiamare.
                     </p>
-                </div>
             </div>
-            <div class="container">
-                <img src="img/item3.svg" alt="img3">
-                <div>
+        </section>
+        <section class="container disp-flex">  
+            <div class="small">
+                <img src="img/item3.svg" alt="img3" class="img-fluid">
+            </div>    
+                <div class="big">
                     <h2>Da pochi a un fandom</h2>
                     <p>Dai inizio a una community di qualsiasi dimensione
                         con strumenti di moderazione e accesso ai membri
@@ -75,10 +80,9 @@
                         crea canali privati e molto altro.       
                     </p>
                 </div>
-            </div>
-            <div class="container even">
-                <img src="img/item4-big.svg" alt="img4">
-                <div>
+        </section> 
+        <section class="container">    
+                <div class="center">
                     <h2>Tecnologia affidabile per tenersi in contatto</h2>
                     <p>Video e audio a bassa latenza ti faranno sentire come se foste
                         tutti nella stessa stanza. Fai ciao in viceo, guarda gli amici 
@@ -86,12 +90,14 @@
                         la condivisione schermo.
                     </p>
                 </div>
-            </div>
+                <div>
+                    <img src="img/item4-big.svg" alt="img4">
+                </div> 
         </section>
     </main>
 
     <footer>
-        <div class="container list-flex">
+        <div class="container disp-flex">
             <ul>
                 <li class="footitle"><h4>Il tuo posto per parlare</h4></li>
                 <li>select lingua</li>
@@ -135,7 +141,7 @@
                 <li>Assistenza</li>
             </ul>
         </div>
-        <div class="container list-flex">
+        <div class="container disp-flex">
             <img src="img/logo.svg" alt="logo">
             <a href="">Registrati</a>
 
